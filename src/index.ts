@@ -25,20 +25,7 @@ function getEnvironmentVariables(): Environment {
 const env = getEnvironmentVariables();
 
 // function main(): void {
-
-//     const openAIConnector = new OpenAIConnector(env.OPENAI_API_KEY);
-
-//     openAIConnector.generatePrompt("What is the following article about? https://www.motortrend.com/reviews/2024-bmw-x6-first-drive-review/ and summarize it in a paragraph.")
-//         .then(response => {
-//             const choices = response?.choices;
-//             choices.forEach(entry => {
-//                 log(entry.message?.content)
-//             });
-//         })
-//         .catch(error => console.error(error));
-
-// }
-
+    //if you want to create a script based client...
 // main();
 
 // POST endpoint to generate prompts
