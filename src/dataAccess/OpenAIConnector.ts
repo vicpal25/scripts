@@ -19,11 +19,10 @@ export class OpenAIConnector {
                 model: 'gpt-3.5-turbo',
               });
 
-
             return chatCompletion;
 
         } catch (error) {
-            console.error("Error calling the OpenAI API:", error);
+            log("Error calling the OpenAI API:", error);
             throw error;
         }
     }
